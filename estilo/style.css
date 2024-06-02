@@ -7,12 +7,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-
-
 :root{
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -21,11 +15,8 @@
     --cor4: #1a5c37;
     --cor5: #063d1e;
 
-    --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-destaque: 'Open sans', sans-serif;
     --fonte-android: 'Android', sans-serif;
-    --fonte-alternativa: 'Chakra Petch';
-    --fonte-alternativa2: 'Jersey 10';
 }
 *{
     margin: 0px;
@@ -163,12 +154,14 @@ aside ul{
     list-style-position: inside;
     columns: 2;
 }
+
 footer{
     background-color: var(--cor5);
+    font-family: var(--fonte-destaque);
     color: white;
     text-align: center;
     padding: 5px;
-    font-size: 0.7em;
+    font-size: .8em;
 }
 footer a{
     font-weight: bold;
@@ -178,5 +171,6 @@ footer a{
 footer a:hover{
     text-decoration: underline;
     color: #2fa866;
+    
 }
 
