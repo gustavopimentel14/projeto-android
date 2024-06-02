@@ -106,12 +106,12 @@ main p{
 }
 .historia{
     font-size: 2em;
-    font-family: var(--fonte-alternativa), var(--fonte-alternativa2);
+    font-family: var(--fonte-android), var(--fonte-alternativa2);
     color: var(--cor4);
 }
 main h2{
     font-size: 1.2em;
-    font-family: var(--fonte-alternativa), var(--fonte-alternativa);
+    font-family: var(--fonte-android), var(--fonte-alternativa);
     color: var(--cor4);
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 10px;
