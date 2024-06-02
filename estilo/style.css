@@ -105,13 +105,13 @@ main p{
     line-height: 1.5em;
 }
 .historia{
-    font-size: 2em;
-    font-family: var(--fonte-android), var(--fonte-alternativa2);
+    font-size: 1.5em;
+    font-family: var(--fonte-android);
     color: var(--cor4);
 }
 main h2{
-    font-size: 1.2em;
-    font-family: var(--fonte-android), var(--fonte-alternativa);
+    font-size: 1.1em;
+    font-family: var(--fonte-android);
     color: var(--cor4);
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 10px;
